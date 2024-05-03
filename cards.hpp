@@ -26,4 +26,6 @@ public:
     std::string rankToString();
     std::string suitToString();
     std::string toString();
+
+    bool beats(Card *opposing, Suit trump, Suit led);
 };
